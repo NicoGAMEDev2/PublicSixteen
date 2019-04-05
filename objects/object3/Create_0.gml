@@ -1,3 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-timer = 60 * 10;
+WalkSpeed = 6;
+timer = 60 * 100;
