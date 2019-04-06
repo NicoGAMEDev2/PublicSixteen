@@ -18,6 +18,6 @@ if(keyboard_check(ord("W"))) {
 }
 timer -= 1;
 if(timer == 0){
-	show_message("Times Up");
+	show_message("Deal is over.");
 	game_restart();
 }
