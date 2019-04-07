@@ -24,3 +24,7 @@ if(keyboard_check(vk_nokey)) {
 	image_speed = 0;
 	image_index = 0;
 }
+if(Items == 16){
+	show_message("You Win!");
+	game_restart();
+}
