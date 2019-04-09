@@ -25,6 +25,6 @@ if(keyboard_check(vk_nokey)) {
 	image_index = 0;
 }
 if(Items == 16){
-	show_message("You Win!");
+	show_message("Shopping Complete!");
 	game_restart();
 }
